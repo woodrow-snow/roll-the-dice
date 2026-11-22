@@ -15,6 +15,7 @@ type RadioButtonProps = {
     style?: StyleProp<ViewStyle>;
 };
 
+/** Renders selectable options and indicates which option is currently selected. */
 export default function RadioButton({
     options,
     selectedOptions,

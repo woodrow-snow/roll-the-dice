@@ -10,6 +10,7 @@ type ChosenGameProps = {
     closeModal: (bool: boolean) => void;
 }
 
+/** Displays the selected game's details in a modal that can be dismissed. */
 export default function ChosenGame({
     game,
     visible,

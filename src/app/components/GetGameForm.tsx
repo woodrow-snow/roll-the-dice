@@ -13,6 +13,7 @@ import {
 import ChosenGame from "./ChosenGameModal";
 import RadioButton from "./RadioButton";
 
+/** Collects game preferences, selects a matching game, and shows the result modal. */
 export default function GetGameForm() {
   const [playerCount, setPlayerCount] = useState("");
   const [gameType, setGameType] = useState("");
@@ -23,6 +24,7 @@ export default function GetGameForm() {
   const gameTypes = ["All Games", "Board Games", "Card Games", "Video Games"];
   const coopTypes = ["Co-op", "Competitive", "Both"];
 
+  /** Validates preferences, loads and filters games, then chooses a player-count match. */
   const handleGetGame = async () => {
     if (!playerCount || !gameType || !coopType) {
       Alert.alert(

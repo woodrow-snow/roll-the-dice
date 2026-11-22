@@ -7,13 +7,8 @@ type DisplayTableProps = {
     data: Game[];
 }
 
+/** Renders each game as a table row with a control for viewing its details. */
 export default function DisplayTable({ data } : DisplayTableProps) {
-    /*
-        This component is given data to turn into a table that allows users to view the data that they have.
-        It will do this by showing the id, name and a view more button.
-        The view more button will display the rest of the information as a model.
-    */
-    
     // This view is the whole table
     return (
         <View style={styles.container}> {/* Parent Element*/}

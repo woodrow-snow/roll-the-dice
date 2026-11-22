@@ -5,6 +5,7 @@ type HomeBaseProps = {
     color: string;
 }
 
+/** Renders the app's custom home-base SVG icon at the requested size and color. */
 export default function HomeBase({size, color}: HomeBaseProps) {
     return (
         <Svg width={size} height={size} viewBox='0 0 100 100'>

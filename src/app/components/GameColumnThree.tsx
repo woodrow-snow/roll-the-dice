@@ -9,6 +9,7 @@ type GameColumnThreeProps = {
     game: Game;
 }
 
+/** Shows a More Info button that opens a modal with the game's details and link. */
 export default function GameColumnThree({game}: GameColumnThreeProps) {
     const [visible, setVisible] = useState(false);
     

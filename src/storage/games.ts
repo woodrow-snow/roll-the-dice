@@ -16,13 +16,12 @@ const BOARDKEY = "board_games"
 const CARDKEY = "card_games"
 const VIDEOKEY = "video_games"
 
+/** Loads the bundled base games and returns them as game records. */
 export const getBaseGames = async (): Promise<Game[]> => {
-    /*
-        This Method gets the base card games from the json file in the public/data folder and converts into a javascript object for use in the program.
-    */
     return JSON.parse(JSON.stringify(baseCardGames)).baseCardGames
 }
 
+/** Reads saved games for the requested type from AsyncStorage. */
 export const getGames = async (gameType?:string, key?:string): Promise<Game[]> => {
     // checking if there is a key, if there isn't then getting it.
     if (!key) {
@@ -33,6 +32,7 @@ export const getGames = async (gameType?:string, key?:string): Promise<Game[]> =
     return data ? JSON.parse(data) : [];
 };
 
+/** Saves a game under its type's storage key and returns the saved record. */
 export const addGame = async (
     game: Game,
     gameType: string
@@ -51,6 +51,7 @@ export const addGame = async (
     return newGame;
 }
 
+/** Combines bundled base games with all game types saved by the user. */
 export const getAllGames = async (): Promise<Game[]> => {
 
     // creating an array for each type
@@ -69,6 +70,7 @@ export const getAllGames = async (): Promise<Game[]> => {
     return gamesToReturn;
 }
 
+/** Maps a game type label to its AsyncStorage key. */
 function getKey(gameType: string): string {
     if (gameType === "Board Games") {
         return BOARDKEY

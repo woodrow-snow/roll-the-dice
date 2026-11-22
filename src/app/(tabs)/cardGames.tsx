@@ -5,11 +5,13 @@ import DisplayTable from "../components/DisplayTable";
 import { useState } from "react";
 import { useFocusEffect } from "expo-router";
 
+/** Loads and displays saved card games whenever this screen is focused. */
 export default function CardGamesScreen() {
     // getting data for card games
     const [games, setGames] = useState<Game[]>([]);
 
     useFocusEffect(() => {
+        /** Loads saved card games into the screen state. */
         const loadGames = async () => {
             const data = await getGames('Card Games');
             setGames(data);

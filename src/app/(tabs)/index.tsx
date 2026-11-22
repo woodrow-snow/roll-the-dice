@@ -5,6 +5,7 @@ import GetGameForm from "../components/GetGameForm";
 import { modals } from "@/styles/modals";
 import ModalCloseButton from "../components/ModalCloseButton";
 
+/** Renders the home screen with the about modal and game-selection form. */
 export default function HomeScreen() {
   // About us Modal State
   const [aboutVisible, setAboutVisible] = useState(false);
@@ -64,5 +65,4 @@ const styles = StyleSheet.create({
     padding: 16,
   },
 })
-
 

@@ -5,6 +5,7 @@ import RadioButton from "./RadioButton";
 import { addGame } from "@/storage/games";
 import { Href, router } from "expo-router";
 
+/** Collects a new game's details, saves the game, and navigates to its list. */
 export default function AddGameForm() {
     const [name, setName] = useState('');
     const [time, setTime] = useState('');
@@ -19,6 +20,7 @@ export default function AddGameForm() {
     const coopTypes = ['Co-op', 'Competitive']
     const gameTypes = ['Board Games', 'Card Games', 'Video Games']
 
+    /** Validates and saves the entered game, clears the form, and opens its game list. */
     const handleAddGame = async () => {
         // checking if values are entered
         if (!name || !time || !p_min || !p_max || !age || !coopType || !gameType) {

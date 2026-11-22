@@ -7,6 +7,7 @@ import { AntDesign } from "@expo/vector-icons";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { FontAwesome5 } from "@expo/vector-icons";
 
+/** Configures the app's drawer navigation, screen labels, and icons. */
 export default function TabLayout() {
     return (
         // This tabs object creates the tab island for all options to live on
