@@ -1,0 +1,139 @@
+{
+    "baseCardGames": [
+        {
+            "name": "Gin Rummy",
+            "p_min": "2",
+            "p_max": "10",
+            "time": "15 min",
+            "age": "8",
+            "link": "https://bicyclecards.com/how-to-play/gin-rummy",
+            "coopType": "Competitive"
+        },
+        {
+            "name": "Solitaire",
+            "p_min": "1",
+            "p_max": "1",
+            "time": "10 Min",
+            "age": "8",
+            "link": "https://bicyclecards.com/how-to-play/solitaire",
+            "coopType": "Competitive"
+        },
+        {
+            "name": "Go Fish!",
+            "p_min": "2",
+            "p_max": "6",
+            "time": "20 min",
+            "age": "3",
+            "link": "https://bicyclecards.com/how-to-play/go-fish",
+            "coopType": "Competitive"
+        },
+        {
+            "name": "Trash",
+            "p_min": "2",
+            "p_max": "5",
+            "time": "30 min",
+            "age": "8",
+            "link": "https://bicyclecards.com/how-to-play/trash",
+            "coopType": "Competitive"
+        },
+        {
+            "name": "Blackjack",
+            "p_min": "2",
+            "p_max": "10",
+            "time": "1 hour",
+            "age": "18",
+            "link": "https://bicyclecards.com/how-to-play/blackjack",
+            "coopType": "Competitive"
+        },
+        {
+            "name": "War",
+            "p_min": "2",
+            "p_max": "2",
+            "time": "40 min",
+            "age": "3",
+            "link": "https://bicyclecards.com/how-to-play/war",
+            "coopType": "Competitive"
+        },
+        {
+            "name": "BS",
+            "p_min": "2",
+            "p_max": "10",
+            "time": "30 min",
+            "age": "13",
+            "link": "https://bicyclecards.com/how-to-play/i-doubt-it",
+            "coopType": "Competitive"
+        },
+        {
+            "name": "Crazy Eights",
+            "p_min": "2",
+            "p_max": "10",
+            "time": "20 min",
+            "age": "4",
+            "link": "https://bicyclecards.com/how-to-play/crazy-eights",
+            "coopType": "Competitive"
+        },
+        {
+            "name": "Palace",
+            "p_min": "2",
+            "p_max": "5",
+            "time": "20 min",
+            "age": "8",
+            "link": "https://bicyclecards.com/how-to-play/palace",
+            "coopType": "Competitive"
+        },
+        {
+            "name": "Rum",
+            "p_min": "2",
+            "p_max": "10",
+            "time": "45 min",
+            "age": "18",
+            "link": "https://bicyclecards.com/how-to-play/rummy-rum",
+            "coopType": "Competitive"
+        },
+        {
+            "name": "Egyptain Rat Screw",
+            "p_min": "2",
+            "p_max": "10",
+            "time": "10 min",
+            "age": "8",
+            "link": "https://bicyclecards.com/how-to-play/egyptian-rat-screw",
+            "coopType": "Competitive"
+        },
+        {
+            "name": "Hearts",
+            "p_min": "3",
+            "p_max": "6",
+            "time": "30 min",
+            "age": "13",
+            "link": "https://bicyclecards.com/how-to-play/hearts",
+            "coopType": "Competitive"
+        },
+        {
+            "name": "Spades",
+            "p_min": "2",
+            "p_max": "10",
+            "time": "60 min",
+            "age": "13",
+            "link": "https://bicyclecards.com/how-to-play/spades",
+            "coopType": "Competitive"
+        },
+        {
+            "name": "Spoons",
+            "p_min": "3",
+            "p_max": "10",
+            "time": "30 min",
+            "age": "4",
+            "link": "https://bicyclecards.com/how-to-play/spoons",
+            "coopType": "Competitive"
+        },
+        {
+            "name": "Kings Corner",
+            "p_min": "2",
+            "p_max": "4",
+            "time": "30 min",
+            "age": "8",
+            "link": "https://bicyclecards.com/how-to-play/kings-corner",
+            "coopType": "Competitive"
+        }
+    ]
+}
